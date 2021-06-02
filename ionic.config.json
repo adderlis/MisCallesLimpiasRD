@@ -1,0 +1,10 @@
+{
+  "name": "MisCalleslimpiasRD",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

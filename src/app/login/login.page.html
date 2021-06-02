@@ -1,0 +1,40 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div>
+        <img style="width:50px;margin:auto;display:block" src="assets/imagenes/Logo.png">
+        <ion-input></ion-input>
+      </div>
+    </ion-card-content>
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input [(ngModel)]="usuario"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input [(ngModel)]="contrasena" ></ion-input>
+    </ion-item>
+
+    <div style="margin:auto; width:75%; padding-top: 20px; margin-right: -35%; font-size: smaller; color: brown;">
+      <ion-label>¿Olvidaste tu contraseña?</ion-label>
+    </div>
+    
+    <div style="margin:auto; width:80%; padding-top: 20px;">
+      
+      <ion-button expand="block" (click)="onIniciarSesion()">Iniciar Sesion</ion-button>
+      
+    </div>
+    
+    <div style="margin:auto; width:75%; padding-top: 20px;">
+      <ion-label>¿No tienes una cuenta?</ion-label>
+      <ion-label><a href="./registro"> Registrate aqui</a></ion-label>
+      </div>
+  </ion-card>
+
+</ion-content>
